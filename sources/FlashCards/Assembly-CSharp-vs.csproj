@@ -213,8 +213,8 @@
      <Compile Include="Assets\Scripts\04_managers\UserManager\StarsManager.cs" />
      <Compile Include="Assets\Scripts\04_managers\UserManager\User.cs" />
      <Compile Include="Assets\Scripts\05_UIControllers\BaseController.cs" />
+     <Compile Include="Assets\Scripts\05_UIControllers\DeckSceneController.cs" />
      <Compile Include="Assets\Scripts\05_UIControllers\InputController.cs" />
-     <Compile Include="Assets\Scripts\05_UIControllers\LoginController.cs" />
      <Compile Include="Assets\Scripts\06_UIAlertViewControllers\UIAlertViewControllerBase.cs" />
      <Compile Include="Assets\Scripts\06_UIAlertViewControllers\UIAlertViewFactory.cs" />
      <Compile Include="Assets\Scripts\06_UIAlertViewControllers\UIImageAlertViewController.cs" />
@@ -314,23 +314,23 @@
  <Reference Include="Mono.Data.Sqlite">
  <HintPath>/Users/statsenko/Documents/1_UNITY_PROJECTS/5_flashcards/Flashcards/sources/FlashCards/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
  </Reference>
+ <Reference Include="Mono.Data.SqliteClient">
+ <HintPath>/Users/statsenko/Documents/1_UNITY_PROJECTS/5_flashcards/Flashcards/sources/FlashCards/Assets/Plugins/Mono.Data.SqliteClient.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Configuration">
+ <HintPath>/Users/statsenko/Documents/1_UNITY_PROJECTS/5_flashcards/Flashcards/sources/FlashCards/Assets/Plugins/System.Configuration.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>/Users/statsenko/Documents/1_UNITY_PROJECTS/5_flashcards/Flashcards/sources/FlashCards/Assets/Plugins/System.Data.dll</HintPath>
+ </Reference>
  <Reference Include="System.Data.Linq">
  <HintPath>/Users/statsenko/Documents/1_UNITY_PROJECTS/5_flashcards/Flashcards/sources/FlashCards/Assets/Plugins/System.Data.Linq.dll</HintPath>
  </Reference>
  <Reference Include="System.EnterpriseServices">
  <HintPath>/Users/statsenko/Documents/1_UNITY_PROJECTS/5_flashcards/Flashcards/sources/FlashCards/Assets/Plugins/System.EnterpriseServices.dll</HintPath>
  </Reference>
- <Reference Include="System.Data">
- <HintPath>/Users/statsenko/Documents/1_UNITY_PROJECTS/5_flashcards/Flashcards/sources/FlashCards/Assets/Plugins/System.Data.dll</HintPath>
- </Reference>
- <Reference Include="Mono.Data.SqliteClient">
- <HintPath>/Users/statsenko/Documents/1_UNITY_PROJECTS/5_flashcards/Flashcards/sources/FlashCards/Assets/Plugins/Mono.Data.SqliteClient.dll</HintPath>
- </Reference>
  <Reference Include="System.Security">
  <HintPath>/Users/statsenko/Documents/1_UNITY_PROJECTS/5_flashcards/Flashcards/sources/FlashCards/Assets/Plugins/System.Security.dll</HintPath>
- </Reference>
- <Reference Include="System.Configuration">
- <HintPath>/Users/statsenko/Documents/1_UNITY_PROJECTS/5_flashcards/Flashcards/sources/FlashCards/Assets/Plugins/System.Configuration.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
